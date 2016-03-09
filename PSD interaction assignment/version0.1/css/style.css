@@ -1,0 +1,420 @@
+/* Global CSS */
+
+body { background-color:#eee; padding:0; margin:0;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    width: 1024px;
+}
+
+/* Controlling the slide effect */
+
+#menu {
+
+}
+
+#menu.active {
+
+}
+
+.menu-link {
+
+}
+
+.container {
+
+}
+
+.container.active {
+
+}
+
+/* Slider effect - save for last and will be shown in class */
+
+
+/* Styling */
+
+/* MENU - Global */
+
+li.current, li.current a, li.current a:active {  }
+
+a {
+
+  }
+
+ul { 
+
+}
+
+
+#transparent_layer { height:25px; background-color:transparent; width:35px; position:relative; top:-10px } /*Click area for invisible field for mobile menu*/
+
+#menu-link-icon, #menu-link-icon:after, #menu-link-icon:before {
+     position:absolute;
+     width:35px;
+     height:5px;
+     background:black;
+     border-radius:20px;
+}
+#menu-link-icon {
+     display:block;
+     text-indent:-999em;
+     top:25px;
+}
+#menu-link-icon:after, #menu-link-icon:before {
+     content:"\00a0";
+     left:0;
+}
+#menu-link-icon:before {
+     top:-10px;
+}
+#menu-link-icon:after {
+     top:10px;
+}
+
+/* MENU - Desktop */
+
+#desktop_menu {
+    display: inline-block;
+    position: relative;
+    line-height: 97px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+#desktop_menu ul {
+    list-style-type: none;
+    margin: auto;
+
+}
+
+#desktop_menu li {
+    float: left;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    padding: 0 12px 0 12px;
+    font-size: 15px;
+}
+#desktop_menu li a {
+}
+#desktop_menu li + li {
+}
+
+
+/* MENU - mobile */
+
+nav#menu { }
+nav#menu ul { }
+nav#menu li {  }
+nav#menu li a {   }
+nav#menu li:hover {  }
+nav#menu li a:hover, #desktop_menu li a:hover {   }
+nav#menu li a:active, #desktop_menu li a:active {  }
+
+/* Top area CSS */
+
+.top {
+    width: 1024px;
+    height: 97px;
+    background-color: #373C3F;
+}
+
+/* Banner area CSS */
+.banner h2 {
+    padding-left: 83px;
+    margin: auto;
+    padding-top:  205px;
+    font-size: 60px;
+    font-family:Montserrat;
+}
+.banner h3 {
+    padding-left: 83px;
+    font-size: 60px;
+    margin: auto;
+    font-family: Montserrat;
+
+}
+.banner h4 {
+    padding-left: 83px;
+    opacity: 0.5;
+    font-size: 34px;
+    font-family: Montserrat;
+    word-spacing: 240px;
+
+}
+
+.banner {
+    height: 577px;
+    width: 1024px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7b9ab6+0,0ca3b9+100 */
+    background: #7b9ab6; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #7b9ab6 0%, #0ca3b9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #7b9ab6 0%,#0ca3b9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #7b9ab6 0%,#0ca3b9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b9ab6', endColorstr='#0ca3b9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+    color: #FFFFFF;
+
+}
+
+/* Info area CSS */
+
+.info_box {
+    width: 796px;
+    height: 245px;
+    background-color: #27212C;
+    float: left;
+    color: #9282A0;
+    font-family: Montserrat;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 245px;
+
+}
+.info_right {
+    width: 228px;
+    height: 245px;
+    background-color: #BC3186;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    line-height: 245px;
+    color: #ffffff;
+}
+
+
+
+/* Three_box area CSS */
+
+
+
+.three_left {
+    background-color:#5b0fa1;
+    width:341px;
+    height:224px;
+    float:left;
+    font-size: 50px;
+    text-align: center;
+    line-height: 224px;
+    color: #ffffff;
+}
+.three_mid {
+    background-color:#000000;
+    width: 341px;
+    height:224px;
+    float:left;
+    background: url(../images/bridge.jpg);
+}
+
+
+.three_right {
+    background-color:#0f0f0f;
+    width:342px;
+    height:224px;
+    float:left;
+    background: url(../images/woman.jpg);
+}
+
+
+/* Footer area CSS */
+
+.footer {
+
+    height: 562px;
+    width: 1024px;
+    background-color: #EBEBEB;
+    float: left;
+
+}
+
+.footer_head {
+    padding-left: 81px;
+    padding-top: 54px;
+    margin: auto;
+    font-family: Montserrat;
+    color: #1C92AA;
+
+}
+
+.footer p {
+    padding-left: 81px;
+    max-width: 80%;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    font-family: Montserrat;
+    word-spacing: 13px;
+    font-size: 14px;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+
+}
+
+
+
+
+/* Media Query section */
+@media all and (max-width: 640px) {
+
+    .top {
+        width: 640px;
+        height: 74px;
+        background-color: #373C3F;
+
+    }
+
+    #menu {
+
+    }
+
+    nav#desktop_menu {
+    }
+
+    .banner {
+        width: 640px;
+        height: 348px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7b9ab6+0,0ca3b9+100 */
+        background: #7b9ab6; /* Old browsers */
+        background: -moz-linear-gradient(-45deg, #7b9ab6 0%, #0ca3b9 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, #7b9ab6 0%, #0ca3b9 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, #7b9ab6 0%, #0ca3b9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b9ab6', endColorstr='#0ca3b9', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+
+        color: #FFFFFF;
+
+    }
+
+    .banner_toptext {
+    }
+
+    .banner h2 {
+        padding-left: 52px;
+        margin: auto;
+        padding-top: 116px;
+        font-size: 30px;
+        font-family: Montserrat;
+    }
+
+    .banner h3 {
+        padding-left: 52px;
+        font-size: 30px;
+        margin: auto;
+        font-family: Montserrat;
+    }
+
+    .banner h4 {
+        padding-left: 52px;
+        opacity: 0.5;
+        font-size: 20px;
+        font-family: Montserrat;
+        word-spacing: 115px;
+    }
+
+    #banner_click {
+    }
+
+    .info_box {
+        width: 497px;
+        height: 150px;
+        background-color: #27212C;
+        float: left;
+        color: #9282A0;
+        font-family: Montserrat;
+        font-size: 30px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 150px;
+
+    }
+
+    .info_left {
+    }
+
+    .info_right {
+        width: 143px;
+        height: 150px;
+        background-color: #BC3186;
+        float: left;
+        font-size: 50px;
+        text-align: center;
+        line-height: 150px;
+        color: #ffffff;
+
+    }
+
+    .three_left {
+        background-color: #5b0fa1;
+        width: 640px;
+        height: 551px;
+        float: left;
+        font-size: 70px;
+        text-align: center;
+        line-height: 551px;
+        color: #ffffff;
+    }
+
+    .three_mid {
+        background-color: #000000;
+        width: 640px;
+        height: 551px;
+        float: left;
+        background: url(../images/bridge.jpg) no-repeat 0 0;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;;
+    }
+
+    .three_right {
+        background-color: #0f0f0f;
+        width: 640px;
+        height: 551px;
+        float: left;
+        background: url(../images/woman.jpg) no-repeat 0 0;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;;
+    }
+
+    .footer {
+
+        height: 893px;
+        width: 640px;
+        background-color: #EBEBEB;
+        float: left;
+    }
+
+    .footer_head {
+        padding-left: 80px;
+        padding-top: 54px;
+        margin: auto;
+        font-family: Montserrat;
+        color: #1C92AA;
+        font-size: 30px;
+    }
+
+    .footer p {
+        font-family: Montserrat;
+        padding-left: 80px;
+        font-size: 22px;
+        margin: 0;
+        padding-top: 60px;
+        line-height: 40px;
+        max-width: 80%;
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+        word-spacing: 13px;
+        -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 40px; /* Firefox */
+        column-gap: 40px;
+    }
+}
+
+
+
+
